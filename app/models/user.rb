@@ -4,4 +4,8 @@ class User < ApplicationRecord
   validates_presence_of :password, require: true
 
   has_secure_password
+
+  def set_api_key
+    self.api_key = SecureRandom.base64.tr('+/=-', 'Qrt')
+  end
 end
