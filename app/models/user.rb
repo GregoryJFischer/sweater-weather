@@ -1,11 +1,15 @@
 class User < ApplicationRecord
-  validates :email, uniqueness: true, presence: true
-  validates :api_key, uniqueness: true
+  has_many :keys
+
+  validates_presence_of :email
+  validates_uniqueness_of :email
   validates_presence_of :password, require: true
 
   has_secure_password
 
-  def set_api_key
-    self.api_key = SecureRandom.base64.tr('+-/=', 'Qrt')
+  after_save :set_key
+
+  def set_key
+    self.keys.create if self.keys.empty?
   end
 end
