@@ -9,11 +9,13 @@ class MapService
     end
 
     def get_coordinates(location)
-      data = parse(conn.get('/geocoding/v1/address', {key: ENV['map_key'], location: location}))
-      if data[:info][:messages].empty?
-        data[:results][0][:locations][0][:latLng]
-      else
-        data[:info][:messages]
+      Rails.cache.fetch("Coordinates-#{location}", expires_in: 1.day) do
+        data = parse(conn.get('/geocoding/v1/address', {key: ENV['map_key'], location: location}))
+        if data[:info][:messages].empty?
+          data[:results][0][:locations][0][:latLng]
+        else
+          data[:info][:messages]
+        end
       end
     end
   end
