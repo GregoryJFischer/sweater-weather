@@ -15,10 +15,14 @@ class ImageService
   end
 
   def photographer_link
-    @image.user.links.self
+    "https://unsplash.com/@#{@image.user.username}?utm_source=sweater-weather-api&utm_medium=referral"
   end
 
   def source
-    'unsplash.com/?utm_source=sweater-weather-api&utm_medium=referral'
+    'Unsplash'
+  end
+
+  def source_url
+    'https://unsplash.com/?utm_source=sweater-weather-api&utm_medium=referral'
   end
 end
