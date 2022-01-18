@@ -22,8 +22,8 @@ class RoadTripFacade
        }
     else
       {
-        temperature: full_weather[:hourly][(hours_from_now - 1)][:temp],
-        conditions: full_weather[:hourly][(hours_from_now - 1)][:weather][0][:description]
+        temperature: full_weather[:hourly][(hours_from_now)][:temp],
+        conditions: full_weather[:hourly][(hours_from_now)][:weather][0][:description]
        }
     end
   end
