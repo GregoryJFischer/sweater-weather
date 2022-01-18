@@ -1,0 +1,774 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?limit=8&q=Cigago,IL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.4
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Tue, 18 Jan 2022 17:21:23 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.152 TT 0 0.154"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 4649,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL23272537W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL31115338M",
+                        "/works/OL23272537W",
+                        "/authors/OL8827434A"
+                    ],
+                    "title": "Miz\u1e7fadot",
+                    "title_suggest": "Miz\u1e7fadot",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL31115338M"
+                    ],
+                    "publish_date": [
+                        "2012"
+                    ],
+                    "publish_year": [
+                        2012
+                    ],
+                    "first_publish_year": 2012,
+                    "number_of_pages_median": 209,
+                    "lccn": [
+                        "2012370388"
+                    ],
+                    "publish_place": [
+                        "\u1e24efah"
+                    ],
+                    "oclc": [
+                        "779586351"
+                    ],
+                    "lcc": [
+                        "PJ-5055.26000000.O294 M59 2012"
+                    ],
+                    "isbn": [
+                        "1618380028",
+                        "9781618380029"
+                    ],
+                    "last_modified_i": 1605295048,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Pardes"
+                    ],
+                    "language": [
+                        "heb"
+                    ],
+                    "author_key": [
+                        "OL8827434A"
+                    ],
+                    "author_name": [
+                        "Il-il Kofler"
+                    ],
+                    "publisher_facet": [
+                        "Pardes"
+                    ],
+                    "_version_": 1715086855771258880,
+                    "lcc_sort": "PJ-5055.26000000.O294 M59 2012",
+                    "author_facet": [
+                        "OL8827434A Il-il Kofler"
+                    ]
+                },
+                {
+                    "key": "/works/OL18607927W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL12796739M",
+                        "/books/OL23594816M",
+                        "/works/OL18607927W",
+                        "/subjects/congresses",
+                        "/subjects/foreign_economic_relations",
+                        "/subjects/korean_reunification_question_(1945-_)",
+                        "/subjects/national_security",
+                        "/subjects/place:united_states",
+                        "/subjects/place:korea_(south)",
+                        "/authors/OL588520A"
+                    ],
+                    "title": "Segyehwa sidae \u016di Han-Mi kwan\u02bcgye",
+                    "title_suggest": "Segyehwa sidae \u016di Han-Mi kwan\u02bcgye",
+                    "has_fulltext": false,
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL12796739M",
+                        "OL23594816M"
+                    ],
+                    "publish_date": [
+                        "1996"
+                    ],
+                    "publish_year": [
+                        1996
+                    ],
+                    "first_publish_year": 1996,
+                    "number_of_pages_median": 182,
+                    "lccn": [
+                        "97454158"
+                    ],
+                    "publish_place": [
+                        "S\u014ful-si"
+                    ],
+                    "oclc": [
+                        "40734178"
+                    ],
+                    "contributor": [
+                        "Han-Mi 21-segi Wiw\u014fnhoe. Hoe\u016di",
+                        "SaKong, Il.",
+                        "Bergsten, C. Fred, 1941-"
+                    ],
+                    "lcc": [
+                        "HF-1602.50000000.Z4 U669 1996"
+                    ],
+                    "isbn": [
+                        "8986828057",
+                        "9788986828054"
+                    ],
+                    "last_modified_i": 1606447333,
+                    "ebook_count_i": 0,
+                    "cover_edition_key": "OL12796739M",
+                    "cover_i": 5210031,
+                    "publisher": [
+                        "Segye Kyongje Yonguwon",
+                        "Segye Ky\u014fngje Y\u014fn\u02bcguw\u014fn"
+                    ],
+                    "language": [
+                        "kor"
+                    ],
+                    "author_key": [
+                        "OL588520A"
+                    ],
+                    "author_name": [
+                        "Il SaKong"
+                    ],
+                    "place": [
+                        "United States",
+                        "Korea (South)"
+                    ],
+                    "subject": [
+                        "Congresses",
+                        "Foreign economic relations",
+                        "Korean reunification question (1945-  )",
+                        "National security"
+                    ],
+                    "publisher_facet": [
+                        "Segye Kyongje Yonguwon",
+                        "Segye Ky\u014fngje Y\u014fn\u02bcguw\u014fn"
+                    ],
+                    "place_key": [
+                        "korea_(south)",
+                        "united_states"
+                    ],
+                    "subject_facet": [
+                        "Congresses",
+                        "Foreign economic relations",
+                        "Korean reunification question (1945-  )",
+                        "National security"
+                    ],
+                    "_version_": 1715081808232579073,
+                    "place_facet": [
+                        "Korea (South)",
+                        "United States"
+                    ],
+                    "lcc_sort": "HF-1602.50000000.Z4 U669 1996",
+                    "author_facet": [
+                        "OL588520A Il SaKong"
+                    ],
+                    "subject_key": [
+                        "congresses",
+                        "foreign_economic_relations",
+                        "korean_reunification_question_(1945-__)",
+                        "national_security"
+                    ]
+                },
+                {
+                    "key": "/works/OL5551816W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL3909150M",
+                        "/books/OL4179605M",
+                        "/works/OL5551816W",
+                        "/subjects/agriculture_and_state",
+                        "/subjects/person:il-s\u014fng_kim_(1912-)",
+                        "/subjects/place:korea_(north)",
+                        "/authors/OL1327219A"
+                    ],
+                    "title": "Ky\u014fngae han\u016dn sury\u014fng Kim Il-s\u014fng Tongji kkes\u014f palp\u02bbyo hasin \"Uri nara sahoeju\u016di nongch\u02bbon munje e kwanhan t\u02bbeje\" sirhaeng ch\u02bbonghwa wa k\u016dmhu kwaop e taehay\u014f",
+                    "title_suggest": "Ky\u014fngae han\u016dn sury\u014fng Kim Il-s\u014fng Tongji kkes\u014f palp\u02bbyo hasin \"Uri nara sahoeju\u016di nongch\u02bbon munje e kwanhan t\u02bbeje\" sirhaeng ch\u02bbonghwa wa k\u016dmhu kwaop e taehay\u014f",
+                    "has_fulltext": false,
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL3909150M",
+                        "OL4179605M"
+                    ],
+                    "publish_date": [
+                        "1974",
+                        "1975"
+                    ],
+                    "publish_year": [
+                        1974,
+                        1975
+                    ],
+                    "first_publish_year": 1974,
+                    "number_of_pages_median": 125,
+                    "lccn": [
+                        "81472187",
+                        "80457418"
+                    ],
+                    "publish_place": [
+                        "Pyongyang, Korea",
+                        "Melbourne"
+                    ],
+                    "contributor": [
+                        "Korea (North). Ch\u02bboego Inmin Hoeu\u0306i."
+                    ],
+                    "lcc": [
+                        "HD-2095.60000000.Z8 1975a",
+                        "HD-2095.60000000.Z8 K5513 1974"
+                    ],
+                    "ddc": [
+                        "338.185193"
+                    ],
+                    "isbn": [
+                        "086932005X",
+                        "9780869320051"
+                    ],
+                    "last_modified_i": 1603941820,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "New Democratic Publications",
+                        "Foreign Languages Pub. House"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1327219A"
+                    ],
+                    "author_name": [
+                        "Kim, Il."
+                    ],
+                    "person": [
+                        "Il-s\u014fng Kim (1912-)"
+                    ],
+                    "place": [
+                        "Korea (North)"
+                    ],
+                    "subject": [
+                        "Agriculture and state"
+                    ],
+                    "id_goodreads": [
+                        "1838624"
+                    ],
+                    "publisher_facet": [
+                        "Foreign Languages Pub. House",
+                        "New Democratic Publications"
+                    ],
+                    "person_key": [
+                        "il-s\u014fng_kim_(1912-)"
+                    ],
+                    "place_key": [
+                        "korea_(north)"
+                    ],
+                    "person_facet": [
+                        "Il-s\u014fng Kim (1912-)"
+                    ],
+                    "subject_facet": [
+                        "Agriculture and state"
+                    ],
+                    "_version_": 1715093511523532800,
+                    "place_facet": [
+                        "Korea (North)"
+                    ],
+                    "lcc_sort": "HD-2095.60000000.Z8 K5513 1974",
+                    "author_facet": [
+                        "OL1327219A Kim, Il."
+                    ],
+                    "subject_key": [
+                        "agriculture_and_state"
+                    ],
+                    "ddc_sort": "338.185193"
+                },
+                {
+                    "key": "/works/OL10788180W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14216549M",
+                        "/works/OL10788180W",
+                        "/authors/OL4508704A"
+                    ],
+                    "title": "Dvenadt \u0141sat \u00a3 stul \u00a3ev",
+                    "title_suggest": "Dvenadt \u0141sat \u00a3 stul \u00a3ev",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14216549M"
+                    ],
+                    "publish_date": [
+                        "1953"
+                    ],
+                    "publish_year": [
+                        1953
+                    ],
+                    "first_publish_year": 1953,
+                    "number_of_pages_median": 368,
+                    "lccn": [
+                        "53033740"
+                    ],
+                    "publish_place": [
+                        "N \u00a3i \u0141u-I ork"
+                    ],
+                    "contributor": [
+                        "Petrov, Evgenii , 1903-1942."
+                    ],
+                    "lcc": [
+                        "PG-3476.00000000.I44 D9 1953"
+                    ],
+                    "last_modified_i": 1260842524,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Izd-vo im. Chekhova"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL4508704A"
+                    ],
+                    "author_name": [
+                        "Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "publisher_facet": [
+                        "Izd-vo im. Chekhova"
+                    ],
+                    "_version_": 1715074291295322114,
+                    "lcc_sort": "PG-3476.00000000.I44 D9 1953",
+                    "author_facet": [
+                        "OL4508704A Il \u00a3i \u0141a Il \u00a3f"
+                    ]
+                },
+                {
+                    "key": "/works/OL10788181W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14189426M",
+                        "/works/OL10788181W",
+                        "/authors/OL4508704A"
+                    ],
+                    "title": "[Dvenadt \u0141sat \u00a3 stul \u00a3ev",
+                    "title_suggest": "[Dvenadt \u0141sat \u00a3 stul \u00a3ev",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14189426M"
+                    ],
+                    "publish_date": [
+                        "1957"
+                    ],
+                    "publish_year": [
+                        1957
+                    ],
+                    "first_publish_year": 1957,
+                    "number_of_pages_median": 654,
+                    "lccn": [
+                        "58032350"
+                    ],
+                    "publish_place": [
+                        "Kiev"
+                    ],
+                    "contributor": [
+                        "Petrov, Evgenii , 1903-1942."
+                    ],
+                    "lcc": [
+                        "PG-3476.00000000.I44 D9 1957"
+                    ],
+                    "last_modified_i": 1338343453,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Radi \u0141ans \u00a3kii  pis \u00a3mennik"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL4508704A"
+                    ],
+                    "author_name": [
+                        "Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "publisher_facet": [
+                        "Radi \u0141ans \u00a3kii  pis \u00a3mennik"
+                    ],
+                    "_version_": 1715074291314196482,
+                    "lcc_sort": "PG-3476.00000000.I44 D9 1957",
+                    "author_facet": [
+                        "OL4508704A Il \u00a3i \u0141a Il \u00a3f"
+                    ]
+                },
+                {
+                    "key": "/works/OL10788182W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14306765M",
+                        "/works/OL10788182W",
+                        "/subjects/description_and_travel",
+                        "/subjects/place:united_states",
+                        "/authors/OL4508704A"
+                    ],
+                    "title": "Little golden America",
+                    "title_suggest": "Little golden America",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14306765M"
+                    ],
+                    "publish_date": [
+                        "1946"
+                    ],
+                    "publish_year": [
+                        1946
+                    ],
+                    "first_publish_year": 1946,
+                    "number_of_pages_median": 296,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "contributor": [
+                        "Petrov, Evgenii , 1903-1942."
+                    ],
+                    "last_modified_i": 1263806976,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "G. Routledge & Sons, Ltd."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL4508704A"
+                    ],
+                    "author_name": [
+                        "Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "place": [
+                        "United States"
+                    ],
+                    "subject": [
+                        "Description and travel"
+                    ],
+                    "publisher_facet": [
+                        "G. Routledge & Sons, Ltd."
+                    ],
+                    "place_key": [
+                        "united_states"
+                    ],
+                    "subject_facet": [
+                        "Description and travel"
+                    ],
+                    "_version_": 1715074291338313729,
+                    "place_facet": [
+                        "United States"
+                    ],
+                    "author_facet": [
+                        "OL4508704A Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "subject_key": [
+                        "description_and_travel"
+                    ]
+                },
+                {
+                    "key": "/works/OL10788183W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14244093M",
+                        "/works/OL10788183W",
+                        "/authors/OL4508704A"
+                    ],
+                    "title": "The little golden calf",
+                    "title_suggest": "The little golden calf",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14244093M"
+                    ],
+                    "publish_date": [
+                        "1932"
+                    ],
+                    "publish_year": [
+                        1932
+                    ],
+                    "first_publish_year": 1932,
+                    "number_of_pages_median": 384,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "contributor": [
+                        "Malamuth, Charles, 1899-1965.",
+                        "Petrov, Evgenii , 1903-1942."
+                    ],
+                    "last_modified_i": 1260842578,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Grayson & Grayson"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL4508704A"
+                    ],
+                    "author_name": [
+                        "Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "publisher_facet": [
+                        "Grayson & Grayson"
+                    ],
+                    "_version_": 1715074291451559938,
+                    "author_facet": [
+                        "OL4508704A Il \u00a3i \u0141a Il \u00a3f"
+                    ]
+                },
+                {
+                    "key": "/works/OL10788184W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14125417M",
+                        "/works/OL10788184W",
+                        "/authors/OL4508704A"
+                    ],
+                    "title": "Zolotoi telenok",
+                    "title_suggest": "Zolotoi telenok",
+                    "has_fulltext": false,
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14125417M"
+                    ],
+                    "publish_date": [
+                        "1954"
+                    ],
+                    "publish_year": [
+                        1954
+                    ],
+                    "first_publish_year": 1954,
+                    "number_of_pages_median": 403,
+                    "contributor": [
+                        "Petrov, Evgenii , 1903-1942."
+                    ],
+                    "last_modified_i": 1260842449,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Chekhov Pub. House"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL4508704A"
+                    ],
+                    "author_name": [
+                        "Il \u00a3i \u0141a Il \u00a3f"
+                    ],
+                    "publisher_facet": [
+                        "Chekhov Pub. House"
+                    ],
+                    "_version_": 1715074291467288576,
+                    "author_facet": [
+                        "OL4508704A Il \u00a3i \u0141a Il \u00a3f"
+                    ]
+                }
+            ],
+            "num_found": 4649,
+            "q": "Cigago,IL",
+            "offset": null
+        }
+  recorded_at: Tue, 18 Jan 2022 17:21:23 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=<map_key>&location=Cigago,IL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Tue, 18 Jan 2022 17:21:23 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '7292'
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Geocodetransactioncount:
+      - '1'
+      Last-Modified:
+      - Tue, 18 Jan 2022 17:21:23 GMT
+      Pragma:
+      - no-cache
+      Reversegeocodetransactioncount:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID=3E2085F64DF9EE98C33C76DDFF7A6B71; Path=/; HttpOnly
+      Status:
+      - success
+      Transactionweight:
+      - '1.0'
+    body:
+      encoding: UTF-8
+      string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
+        Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
+        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"Cigago,IL"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"IL","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A3XAX","geocodeQuality":"STATE","dragPoint":false,"sideOfStreet":"N","linkId":"US/GEO/p0/7574","unknownInput":"","type":"s","latLng":{"lat":40.12414,"lng":-89.14863},"displayLatLng":{"lat":40.12414,"lng":-89.14863},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=40.12414,-89.14863|marker-sm-50318A-1&scalebar=true&zoom=5&rand=1777532576"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"","adminArea3Type":"State","adminArea1":"IL","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A1XAX","geocodeQuality":"COUNTRY","dragPoint":false,"sideOfStreet":"N","linkId":"IL/GEO/p0/45","unknownInput":"","type":"s","latLng":{"lat":31.78902,"lng":35.20108},"displayLatLng":{"lat":31.78902,"lng":35.20108},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=31.78902,35.20108|marker-sm-50318A-2&scalebar=true&zoom=2&rand=-1503592569"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Ha''il","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"Mintaqat
+        Ha''il","adminArea3Type":"State","adminArea1":"SA","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"SA/GEO/p0/24719","unknownInput":"","type":"s","latLng":{"lat":27.53414,"lng":41.69812},"displayLatLng":{"lat":27.53414,"lng":41.69812},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=27.53414,41.69812|marker-sm-50318A-3&scalebar=true&zoom=12&rand=1789674000"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il''inskiy","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"Privolzhskiy
+        Federal''nyy Okrug","adminArea3Type":"State","adminArea1":"RU","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"RU/GEO/p0/134508","unknownInput":"","type":"s","latLng":{"lat":58.57137,"lng":55.68964},"displayLatLng":{"lat":58.57137,"lng":55.68964},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=58.57137,55.68964|marker-sm-50318A-4&scalebar=true&zoom=12&rand=260414203"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il-Mosta","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"","adminArea3Type":"State","adminArea1":"MT","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"MT/GEO/p0/68","unknownInput":"","type":"s","latLng":{"lat":35.90663,"lng":14.42786},"displayLatLng":{"lat":35.90663,"lng":14.42786},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=35.90663,14.42786|marker-sm-50318A-5&scalebar=true&zoom=12&rand=-1648530612"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il-Mellie\u0127a","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"","adminArea3Type":"State","adminArea1":"MT","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"MT/GEO/p0/67","unknownInput":"","type":"s","latLng":{"lat":35.95653,"lng":14.36125},"displayLatLng":{"lat":35.95653,"lng":14.36125},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=35.95653,14.36125|marker-sm-50318A-6&scalebar=true&zoom=12&rand=-133765518"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il''skiy","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"Yuzhnyy
+        Federal''nyy Okrug","adminArea3Type":"State","adminArea1":"RU","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"RU/GEO/p0/64360","unknownInput":"","type":"s","latLng":{"lat":44.8363,"lng":38.56163},"displayLatLng":{"lat":44.8363,"lng":38.56163},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=44.8363,38.56163|marker-sm-50318A-7&scalebar=true&zoom=12&rand=565777127"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il-\u0126amrun","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"","adminArea3Type":"State","adminArea1":"MT","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"MT/GEO/p0/33","unknownInput":"","type":"s","latLng":{"lat":35.88588,"lng":14.4894},"displayLatLng":{"lat":35.88588,"lng":14.4894},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=35.88588,14.4894|marker-sm-50318A-8&scalebar=true&zoom=12&rand=-1914576453"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il-Qrendi","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"","adminArea3Type":"State","adminArea1":"MT","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"MT/GEO/p0/48","unknownInput":"","type":"s","latLng":{"lat":35.83604,"lng":14.45952},"displayLatLng":{"lat":35.83604,"lng":14.45952},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=35.83604,14.45952|marker-sm-50318A-9&scalebar=true&zoom=12&rand=-1351438053"},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Il''inskoye","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"Tsentral''nyy
+        Federal''nyy Okrug","adminArea3Type":"State","adminArea1":"RU","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"RU/GEO/p0/179137","unknownInput":"","type":"s","latLng":{"lat":57.32338,"lng":38.50619},"displayLatLng":{"lat":57.32338,"lng":38.50619},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=<map_key>&type=map&size=225,160&locations=57.32338,38.50619|marker-sm-50318A-10&scalebar=true&zoom=12&rand=2106003354"}]}]}'
+  recorded_at: Tue, 18 Jan 2022 17:21:23 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/onecall?appid=<weather_key>&exclude=minutely,alerts&lat=40.12414&lon=-89.14863&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 18 Jan 2022 17:21:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '17748'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/onecall?exclude=minutely%2Calerts&lat=40.12&lon=-89.15&units=imperial"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"lat":40.1241,"lon":-89.1486,"timezone":"America/Chicago","timezone_offset":-21600,"current":{"dt":1642526484,"sunrise":1642511726,"sunset":1642546694,"temp":39.9,"feels_like":31.41,"pressure":1014,"humidity":75,"dew_point":32.63,"uvi":1.43,"clouds":60,"visibility":10000,"wind_speed":16.04,"wind_deg":178,"wind_gust":35.3,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}]},"hourly":[{"dt":1642525200,"temp":39.9,"feels_like":31.41,"pressure":1014,"humidity":75,"dew_point":32.63,"uvi":1.43,"clouds":60,"visibility":10000,"wind_speed":16.04,"wind_deg":178,"wind_gust":35.3,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1642528800,"temp":40.35,"feels_like":31.66,"pressure":1014,"humidity":72,"dew_point":32.05,"uvi":1.59,"clouds":61,"visibility":10000,"wind_speed":17.18,"wind_deg":185,"wind_gust":35.68,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1642532400,"temp":41.63,"feels_like":33.28,"pressure":1013,"humidity":69,"dew_point":32.23,"uvi":1.39,"clouds":76,"visibility":10000,"wind_speed":17.29,"wind_deg":189,"wind_gust":34.99,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1642536000,"temp":43.05,"feels_like":35.15,"pressure":1012,"humidity":67,"dew_point":32.86,"uvi":0.95,"clouds":84,"visibility":10000,"wind_speed":17.2,"wind_deg":191,"wind_gust":34.58,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0},{"dt":1642539600,"temp":44.08,"feels_like":36.57,"pressure":1011,"humidity":67,"dew_point":33.84,"uvi":0.46,"clouds":92,"visibility":10000,"wind_speed":16.87,"wind_deg":193,"wind_gust":33.62,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642543200,"temp":43.66,"feels_like":36.19,"pressure":1010,"humidity":72,"dew_point":35.2,"uvi":0.14,"clouds":100,"visibility":10000,"wind_speed":16.26,"wind_deg":193,"wind_gust":34.16,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642546800,"temp":41.52,"feels_like":33.49,"pressure":1010,"humidity":79,"dew_point":35.44,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.04,"wind_deg":191,"wind_gust":36.28,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642550400,"temp":40.66,"feels_like":32.41,"pressure":1010,"humidity":82,"dew_point":35.65,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":15.9,"wind_deg":193,"wind_gust":37.27,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642554000,"temp":40.53,"feels_like":32.29,"pressure":1010,"humidity":83,"dew_point":35.83,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":15.77,"wind_deg":198,"wind_gust":38.01,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642557600,"temp":40.46,"feels_like":32.22,"pressure":1011,"humidity":84,"dew_point":35.98,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":15.68,"wind_deg":204,"wind_gust":38.5,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642561200,"temp":40.33,"feels_like":32.29,"pressure":1011,"humidity":85,"dew_point":36.09,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":14.92,"wind_deg":213,"wind_gust":37.74,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642564800,"temp":40.08,"feels_like":31.96,"pressure":1011,"humidity":86,"dew_point":36.21,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":14.9,"wind_deg":219,"wind_gust":37.74,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642568400,"temp":39.74,"feels_like":31.77,"pressure":1011,"humidity":88,"dew_point":36.37,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":14.18,"wind_deg":225,"wind_gust":35.14,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642572000,"temp":39.09,"feels_like":31.26,"pressure":1012,"humidity":90,"dew_point":36.34,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":13.2,"wind_deg":234,"wind_gust":32.08,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642575600,"temp":38.25,"feels_like":30.67,"pressure":1012,"humidity":92,"dew_point":36.01,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":11.92,"wind_deg":253,"wind_gust":26.04,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642579200,"temp":36.72,"feels_like":29.37,"pressure":1013,"humidity":93,"dew_point":34.79,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":10.42,"wind_deg":276,"wind_gust":21.16,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642582800,"temp":34.81,"feels_like":27.14,"pressure":1014,"humidity":94,"dew_point":33.04,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":10.13,"wind_deg":300,"wind_gust":22.53,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642586400,"temp":33.49,"feels_like":24.66,"pressure":1015,"humidity":91,"dew_point":31.06,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":12.01,"wind_deg":317,"wind_gust":23.2,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642590000,"temp":31.33,"feels_like":21.27,"pressure":1016,"humidity":86,"dew_point":27.55,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":13.58,"wind_deg":329,"wind_gust":22.97,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642593600,"temp":28.56,"feels_like":17.92,"pressure":1018,"humidity":80,"dew_point":22.93,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":13.2,"wind_deg":334,"wind_gust":22.97,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642597200,"temp":26.04,"feels_like":14.61,"pressure":1019,"humidity":75,"dew_point":18.91,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":13.47,"wind_deg":334,"wind_gust":23.64,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642600800,"temp":24.37,"feels_like":12.2,"pressure":1021,"humidity":70,"dew_point":15.82,"uvi":0.13,"clouds":100,"visibility":10000,"wind_speed":14.09,"wind_deg":335,"wind_gust":21.45,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642604400,"temp":23.58,"feels_like":10.98,"pressure":1022,"humidity":63,"dew_point":12.42,"uvi":0.43,"clouds":100,"visibility":10000,"wind_speed":15.23,"wind_deg":337,"wind_gust":20.62,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642608000,"temp":22.93,"feels_like":10.33,"pressure":1023,"humidity":58,"dew_point":9.82,"uvi":0.93,"clouds":100,"visibility":10000,"wind_speed":15.73,"wind_deg":338,"wind_gust":20.96,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642611600,"temp":22.53,"feels_like":9.93,"pressure":1024,"humidity":56,"dew_point":8.74,"uvi":1.34,"clouds":100,"visibility":10000,"wind_speed":15.7,"wind_deg":338,"wind_gust":20.54,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642615200,"temp":22.32,"feels_like":9.72,"pressure":1023,"humidity":55,"dew_point":8.24,"uvi":1.49,"clouds":100,"visibility":10000,"wind_speed":16.62,"wind_deg":337,"wind_gust":21.52,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642618800,"temp":21.85,"feels_like":9.25,"pressure":1023,"humidity":55,"dew_point":7.77,"uvi":1.25,"clouds":100,"visibility":10000,"wind_speed":17.58,"wind_deg":337,"wind_gust":22.7,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642622400,"temp":21.27,"feels_like":8.67,"pressure":1023,"humidity":56,"dew_point":7.41,"uvi":0.85,"clouds":100,"visibility":10000,"wind_speed":18.21,"wind_deg":337,"wind_gust":23.73,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642626000,"temp":20.46,"feels_like":7.86,"pressure":1024,"humidity":56,"dew_point":6.73,"uvi":0.42,"clouds":100,"visibility":10000,"wind_speed":18.25,"wind_deg":338,"wind_gust":23.89,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642629600,"temp":19.53,"feels_like":6.93,"pressure":1025,"humidity":56,"dew_point":5.94,"uvi":0.13,"clouds":100,"visibility":10000,"wind_speed":18.52,"wind_deg":340,"wind_gust":24.32,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1642633200,"temp":18.41,"feels_like":5.81,"pressure":1026,"humidity":59,"dew_point":5.63,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":17.83,"wind_deg":340,"wind_gust":24.47,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642636800,"temp":16.99,"feels_like":4.39,"pressure":1027,"humidity":61,"dew_point":5.14,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":17.34,"wind_deg":341,"wind_gust":24.72,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642640400,"temp":16.02,"feels_like":3.42,"pressure":1029,"humidity":62,"dew_point":4.32,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.98,"wind_deg":344,"wind_gust":22.64,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642644000,"temp":15.39,"feels_like":2.79,"pressure":1030,"humidity":63,"dew_point":4.01,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.58,"wind_deg":346,"wind_gust":21.25,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642647600,"temp":14.67,"feels_like":2.07,"pressure":1031,"humidity":63,"dew_point":3.34,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.28,"wind_deg":348,"wind_gust":20.56,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642651200,"temp":13.91,"feels_like":1.31,"pressure":1031,"humidity":62,"dew_point":2.26,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.35,"wind_deg":348,"wind_gust":20.69,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642654800,"temp":13.3,"feels_like":0.7,"pressure":1032,"humidity":61,"dew_point":1.27,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":16.08,"wind_deg":350,"wind_gust":19.86,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642658400,"temp":12.56,"feels_like":-0.04,"pressure":1032,"humidity":62,"dew_point":0.81,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":15.95,"wind_deg":351,"wind_gust":19.62,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642662000,"temp":11.75,"feels_like":-0.85,"pressure":1033,"humidity":64,"dew_point":0.61,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":15.3,"wind_deg":350,"wind_gust":19.19,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642665600,"temp":11.28,"feels_like":-1.32,"pressure":1033,"humidity":66,"dew_point":0.55,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":14.67,"wind_deg":350,"wind_gust":19.1,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642669200,"temp":10.85,"feels_like":-1.75,"pressure":1034,"humidity":67,"dew_point":0.61,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":14.16,"wind_deg":350,"wind_gust":19.3,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642672800,"temp":10.44,"feels_like":-2.16,"pressure":1034,"humidity":69,"dew_point":0.73,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":13.65,"wind_deg":348,"wind_gust":19.37,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642676400,"temp":10.08,"feels_like":-2.52,"pressure":1034,"humidity":71,"dew_point":0.82,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":13.11,"wind_deg":346,"wind_gust":19.48,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642680000,"temp":9.82,"feels_like":-2.78,"pressure":1035,"humidity":72,"dew_point":0.88,"uvi":0,"clouds":92,"visibility":10000,"wind_speed":12.46,"wind_deg":344,"wind_gust":19.51,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0},{"dt":1642683600,"temp":9.57,"feels_like":-3.03,"pressure":1036,"humidity":73,"dew_point":0.86,"uvi":0,"clouds":30,"visibility":10000,"wind_speed":11.92,"wind_deg":344,"wind_gust":19.64,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03n"}],"pop":0},{"dt":1642687200,"temp":9.68,"feels_like":-2.92,"pressure":1037,"humidity":70,"dew_point":0.25,"uvi":0.18,"clouds":18,"visibility":10000,"wind_speed":12.8,"wind_deg":347,"wind_gust":18.12,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1642690800,"temp":11.25,"feels_like":-1.35,"pressure":1037,"humidity":63,"dew_point":-0.29,"uvi":0.58,"clouds":14,"visibility":10000,"wind_speed":12.66,"wind_deg":352,"wind_gust":16.53,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0},{"dt":1642694400,"temp":13.3,"feels_like":0.7,"pressure":1038,"humidity":56,"dew_point":-0.71,"uvi":0.99,"clouds":12,"visibility":10000,"wind_speed":11.56,"wind_deg":355,"wind_gust":14.2,"weather":[{"id":801,"main":"Clouds","description":"few
+        clouds","icon":"02d"}],"pop":0}],"daily":[{"dt":1642528800,"sunrise":1642511726,"sunset":1642546694,"moonrise":1642549140,"moonset":1642514640,"moon_phase":0.52,"temp":{"day":40.35,"min":25.25,"max":44.08,"night":39.74,"eve":40.66,"morn":27.16},"feels_like":{"day":31.66,"night":31.77,"eve":32.41,"morn":19.22},"pressure":1014,"humidity":72,"dew_point":32.05,"wind_speed":17.29,"wind_deg":189,"wind_gust":38.5,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"clouds":61,"pop":0,"uvi":1.59},{"dt":1642615200,"sunrise":1642598095,"sunset":1642633163,"moonrise":1642639320,"moonset":1642603140,"moon_phase":0.56,"temp":{"day":22.32,"min":13.3,"max":39.09,"night":13.3,"eve":16.99,"morn":28.56},"feels_like":{"day":9.72,"night":0.7,"eve":4.39,"morn":17.92},"pressure":1023,"humidity":55,"dew_point":8.24,"wind_speed":18.52,"wind_deg":340,"wind_gust":32.08,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"clouds":100,"pop":0,"uvi":1.49},{"dt":1642701600,"sunrise":1642684462,"sunset":1642719632,"moonrise":1642729620,"moonset":1642691400,"moon_phase":0.59,"temp":{"day":16.83,"min":9.57,"max":18.48,"night":13.37,"eve":15.57,"morn":9.82},"feels_like":{"day":4.57,"night":4.15,"eve":4.24,"morn":-2.78},"pressure":1037,"humidity":47,"dew_point":-0.76,"wind_speed":15.95,"wind_deg":351,"wind_gust":19.64,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":10,"pop":0,"uvi":1.56},{"dt":1642788000,"sunrise":1642770828,"sunset":1642806102,"moonrise":1642819920,"moonset":1642779420,"moon_phase":0.62,"temp":{"day":22.23,"min":11.88,"max":24.78,"night":21.51,"eve":22.35,"morn":11.88},"feels_like":{"day":17.94,"night":16.65,"eve":22.35,"morn":5.47},"pressure":1036,"humidity":50,"dew_point":6.21,"wind_speed":5.64,"wind_deg":6,"wind_gust":7.56,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":4,"pop":0,"uvi":1.74},{"dt":1642874400,"sunrise":1642857191,"sunset":1642892572,"moonrise":1642910220,"moonset":1642867260,"moon_phase":0.65,"temp":{"day":28.6,"min":20.16,"max":31.73,"night":26.2,"eve":27.73,"morn":20.19},"feels_like":{"day":18.5,"night":17.22,"eve":20.14,"morn":11.07},"pressure":1027,"humidity":46,"dew_point":10.51,"wind_speed":13,"wind_deg":252,"wind_gust":18.05,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"clouds":100,"pop":0,"uvi":2},{"dt":1642960800,"sunrise":1642943552,"sunset":1642979043,"moonrise":1643000580,"moonset":1642955100,"moon_phase":0.69,"temp":{"day":30.92,"min":20.5,"max":33.37,"night":27.93,"eve":29.7,"morn":21.2},"feels_like":{"day":21.96,"night":20.25,"eve":22.46,"morn":21.2},"pressure":1014,"humidity":59,"dew_point":18.14,"wind_speed":10.87,"wind_deg":190,"wind_gust":19.57,"weather":[{"id":600,"main":"Snow","description":"light
+        snow","icon":"13d"}],"clouds":100,"pop":0.85,"snow":0.92,"uvi":2},{"dt":1643047200,"sunrise":1643029911,"sunset":1643065515,"moonrise":0,"moonset":1643043000,"moon_phase":0.72,"temp":{"day":24.98,"min":20.75,"max":25.75,"night":20.97,"eve":22.51,"morn":20.75},"feels_like":{"day":16.83,"night":11.32,"eve":13.35,"morn":12},"pressure":1017,"humidity":62,"dew_point":13.71,"wind_speed":8.93,"wind_deg":346,"wind_gust":14.74,"weather":[{"id":600,"main":"Snow","description":"light
+        snow","icon":"13d"}],"clouds":97,"pop":1,"snow":0.65,"uvi":2},{"dt":1643133600,"sunrise":1643116269,"sunset":1643151987,"moonrise":1643091120,"moonset":1643131020,"moon_phase":0.75,"temp":{"day":12.76,"min":7.45,"max":19.54,"night":7.45,"eve":9.52,"morn":11.03},"feels_like":{"day":0.16,"night":-5.15,"eve":-3.08,"morn":-1.57},"pressure":1030,"humidity":57,"dew_point":-0.94,"wind_speed":15.01,"wind_deg":348,"wind_gust":20.45,"weather":[{"id":600,"main":"Snow","description":"light
+        snow","icon":"13d"}],"clouds":10,"pop":1,"snow":0.7,"uvi":2}]}'
+  recorded_at: Tue, 18 Jan 2022 17:21:24 GMT
+recorded_with: VCR 6.0.0
