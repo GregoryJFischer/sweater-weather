@@ -6,10 +6,10 @@ class BookSerializer
           id: nil,
           type: 'books',
           attributes: {
-            destination: info.destination,
+            destination: info.location,
             forecast: info.forecast,
             total_books_found: info.total_books_found,
-            books: books_array(info.books, info.quantity)
+            books: books_array(info.books)
           }
         }
       }
