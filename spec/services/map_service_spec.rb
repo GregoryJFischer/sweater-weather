@@ -17,4 +17,15 @@ describe MapService, :vcr do
       expect(latLng[0]).to eq 'Illegal argument from request: Insufficient info for location'
     end
   end
+
+  describe 'get_route' do
+    it 'returns route information given to and from cities' do
+      directions = MapService.get_route('Reston,VA', 'Herndon,VA')
+
+      expect(directions).to be_a Hash
+
+      expect(directions[:route][:realTime]).to be_a Integer
+      expect(directions[:route][:formattedTime]).to be_a String
+    end
+  end
 end
