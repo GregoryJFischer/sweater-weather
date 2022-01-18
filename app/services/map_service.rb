@@ -18,5 +18,17 @@ class MapService
         end
       end
     end
+
+    def formated_lat_lng(location)
+      latLng = get_coordinates(location)
+      "#{latLng[:lat]},#{latLng[:lng]}"
+    end
+
+    def get_route(from_city, to_city)
+      from = formated_lat_lng(from_city)
+      to = formated_lat_lng(to_city)
+
+      parse(conn.get('/directions/v2/route', {key: ENV['map_key'], from: from, to: to}))
+    end
   end
 end
