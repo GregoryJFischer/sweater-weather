@@ -20,8 +20,8 @@ class BookFacade
   def forecast
     weather = weather_service
     {
-      temperature: weather[:current][:temp],
-      conditions: weather[:current][:weather][0][:description]
+      summary: weather[:current][:weather][0][:description],
+      temperature: weather[:current][:temp]
      }
   end
 

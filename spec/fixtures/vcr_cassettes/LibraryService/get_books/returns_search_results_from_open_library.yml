@@ -1,0 +1,893 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openlibrary.org/search.json?limit=5&q=Washington,DC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.4
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Tue, 18 Jan 2022 17:07:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.602 TT 0 0.604"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 61764,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL98030W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL19984015M",
+                        "/books/OL10901564M",
+                        "/books/OL21638373M",
+                        "/books/OL22361381M",
+                        "/books/OL9644215M",
+                        "/books/OL5538517M",
+                        "/books/OL5772303M",
+                        "/books/OL13675301M",
+                        "/books/OL24965661M",
+                        "/books/OL24382331M",
+                        "/books/OL20647771M",
+                        "/books/OL24370860M",
+                        "/books/OL22929768M",
+                        "/books/OL18134006M",
+                        "/books/OL13969139M",
+                        "/books/OL22788764M",
+                        "/books/OL22364008M",
+                        "/books/OL5213323M",
+                        "/books/OL23253336M",
+                        "/books/OL10682603M",
+                        "/books/OL21560193M",
+                        "/books/OL10682929M",
+                        "/books/OL10683090M",
+                        "/books/OL10683855M",
+                        "/books/OL10684208M",
+                        "/books/OL20984363M",
+                        "/books/OL7882661M",
+                        "/books/OL9649817M",
+                        "/books/OL13867943M",
+                        "/books/OL9515915M",
+                        "/books/OL9657144M",
+                        "/books/OL10686797M",
+                        "/books/OL13264743M",
+                        "/books/OL9427623M",
+                        "/books/OL11127744M",
+                        "/books/OL7699644M",
+                        "/books/OL9803513M",
+                        "/books/OL3581848M",
+                        "/works/OL98030W",
+                        "/subjects/fiction",
+                        "/subjects/legislators",
+                        "/subjects/politics_and_government",
+                        "/subjects/fiction_in_english",
+                        "/subjects/politicians",
+                        "/subjects/mccarthyism",
+                        "/subjects/sexual_behavior",
+                        "/subjects/city_and_town_life",
+                        "/subjects/american_fiction_(fictional_works_by_one_author)",
+                        "/subjects/washington_(d.c.)_fiction",
+                        "/subjects/place:washington_(d.c.)",
+                        "/subjects/place:united_states",
+                        "/authors/OL2657944A"
+                    ],
+                    "title": "Washington, D.C.",
+                    "title_suggest": "Washington, D.C.",
+                    "subtitle": "a novel",
+                    "has_fulltext": true,
+                    "edition_count": 38,
+                    "edition_key": [
+                        "OL19984015M",
+                        "OL10901564M",
+                        "OL21638373M",
+                        "OL22361381M",
+                        "OL9644215M",
+                        "OL5538517M",
+                        "OL5772303M",
+                        "OL13675301M",
+                        "OL24965661M",
+                        "OL24382331M",
+                        "OL20647771M",
+                        "OL24370860M",
+                        "OL22929768M",
+                        "OL18134006M",
+                        "OL13969139M",
+                        "OL22788764M",
+                        "OL22364008M",
+                        "OL5213323M",
+                        "OL23253336M",
+                        "OL10682603M",
+                        "OL21560193M",
+                        "OL10682929M",
+                        "OL10683090M",
+                        "OL10683855M",
+                        "OL10684208M",
+                        "OL20984363M",
+                        "OL7882661M",
+                        "OL9649817M",
+                        "OL13867943M",
+                        "OL9515915M",
+                        "OL9657144M",
+                        "OL10686797M",
+                        "OL13264743M",
+                        "OL9427623M",
+                        "OL11127744M",
+                        "OL7699644M",
+                        "OL9803513M",
+                        "OL3581848M"
+                    ],
+                    "publish_date": [
+                        "May 12, 1981",
+                        "1976",
+                        "1988",
+                        "March 1999",
+                        "January 2000",
+                        "2000",
+                        "July 1988",
+                        "March 12, 1979",
+                        "June 1994",
+                        "September 12, 1986",
+                        "February 16, 1999",
+                        "October 12, 1976",
+                        "1967",
+                        "March 12, 1978",
+                        "1968",
+                        "1985",
+                        "January 1967",
+                        "March 1995",
+                        "December 1993",
+                        "December 12, 1983",
+                        "April 2, 1994"
+                    ],
+                    "publish_year": [
+                        1993,
+                        1986,
+                        1979,
+                        1967,
+                        2000,
+                        1978,
+                        1968,
+                        1981,
+                        1983,
+                        1995,
+                        1976,
+                        1988,
+                        1999,
+                        1994,
+                        1985
+                    ],
+                    "first_publish_year": 1967,
+                    "number_of_pages_median": 331,
+                    "lccn": [
+                        "2002278296",
+                        "67015707",
+                        "75042768",
+                        "71527804"
+                    ],
+                    "publish_place": [
+                        "Boston, USA",
+                        "London",
+                        "New York",
+                        "Lisboa",
+                        "Boston",
+                        "StAlbans",
+                        "Athens"
+                    ],
+                    "oclc": [
+                        "228214138",
+                        "21171749",
+                        "290698",
+                        "462854197",
+                        "1131154",
+                        "39936261",
+                        "246210803",
+                        "4279756"
+                    ],
+                    "lcc": [
+                        "PS-3543.00000000.I26 Was3",
+                        "PZ-0003.00000000.V6668 Was4 W37 1968",
+                        "PS-3543.00000000.I26 .W318 1994",
+                        "PS-3543.00000000.I26 W3 2000",
+                        "PS-3543.00000000.I26 W3",
+                        "PS-3543.00000000.I26",
+                        "PZ-0003.00000000.V6668 Was3",
+                        "PS-3543.00000000.I26W3 2000",
+                        "PS-3543.00000000.I26 W3 1976",
+                        "PS-3543.00000000.I26 W3 1968",
+                        "PZ-0003.00000000 V6668 Wa",
+                        "PS-3543.00000000.I26 W3 1967",
+                        "PS-3543.00000000.I26 Was4 W37 1968"
+                    ],
+                    "ddc": [
+                        "823.91",
+                        "813.54"
+                    ],
+                    "isbn": [
+                        "9780345256515",
+                        "0345312139",
+                        "0316902578",
+                        "9785553283650",
+                        "9780586026748",
+                        "9788435005395",
+                        "0345279468",
+                        "9780345301093",
+                        "9780316902571",
+                        "9780375708770",
+                        "0586026746",
+                        "0679602917",
+                        "9780345342362",
+                        "9780586025178",
+                        "0676589618",
+                        "0394406893",
+                        "9780345274632",
+                        "9780676589610",
+                        "0375708774",
+                        "9785557106832",
+                        "9780345008879",
+                        "0760756910",
+                        "0345342364",
+                        "0345008871",
+                        "9780394406893",
+                        "9780760756911",
+                        "5557106839",
+                        "9780679602910",
+                        "9780349105277",
+                        "0349105278",
+                        "0434829544",
+                        "0345256514",
+                        "0345274636",
+                        "8440643683",
+                        "5553283655",
+                        "0345301099",
+                        "9788440643681",
+                        "0586025170",
+                        "9780434829545",
+                        "9780345312136",
+                        "8435005399",
+                        "9780345279460"
+                    ],
+                    "last_modified_i": 1631743491,
+                    "ebook_count_i": 9,
+                    "ia": [
+                        "washingtondcnovevida",
+                        "washingtondc0000vida",
+                        "washingtondcnove0000vida_w3s9",
+                        "washingtondcnove0000vida_e2a4",
+                        "washingtondc0000unse_c3r2",
+                        "washingtondc0000vida_b4r0",
+                        "washingtondcnov00vida",
+                        "washingtondcnove00vidarich",
+                        "washingtondcnove0000vida"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "americana;internetarchivebooks;fav-opus1979;uni-ol;cua-ol;fav-barkydonaldson;china;fav-johndraffn;fav-psvmets;fav-jesus_tovar;inlibrary;printdisabled;fav-pasquale486",
+                    "lending_edition_s": "OL10901564M",
+                    "lending_identifier_s": "washingtondc0000unse_c3r2",
+                    "printdisabled_s": "OL10901564M;OL24382331M;OL3581848M;OL5213323M;OL5538517M;OL21560193M;OL24370860M;OL13264743M;OL10683090M",
+                    "cover_edition_key": "OL3581848M",
+                    "cover_i": 228896,
+                    "publisher": [
+                        "Modern Library",
+                        "Little, Brown",
+                        "Edhasa",
+                        "Signet",
+                        "Ballantine Books",
+                        "Vintage International",
+                        "Abacus",
+                        "Publicac \u02b9o es Dom Quixote",
+                        "Panther",
+                        "Little, Brown and Company",
+                        "Books On Tape",
+                        "Random House",
+                        "World Books",
+                        "Heinemann",
+                        "Ediciones B",
+                        "New American Library",
+                        "Grafton Books",
+                        "Little Brown & Company",
+                        "Kare"
+                    ],
+                    "language": [
+                        "eng",
+                        "por",
+                        "spa"
+                    ],
+                    "author_key": [
+                        "OL2657944A"
+                    ],
+                    "author_name": [
+                        "Gore Vidal"
+                    ],
+                    "author_alternative_name": [
+                        "Gore Vidal et al",
+                        "GORE VIDAL",
+                        "Vidal Gore",
+                        "Eugene Luther Gore Vidal Jr.",
+                        "Edgar Box",
+                        "Gore Vidal"
+                    ],
+                    "place": [
+                        "Washington (D.C.)",
+                        "United States"
+                    ],
+                    "subject": [
+                        "Fiction",
+                        "Legislators",
+                        "Politics and government",
+                        "Fiction in English",
+                        "Politicians",
+                        "McCarthyism",
+                        "Sexual behavior",
+                        "City and town life",
+                        "American fiction (fictional works by one author)",
+                        "Washington (d.c.), fiction",
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_goodreads": [
+                        "344434",
+                        "3360445",
+                        "6869279",
+                        "3047845",
+                        "2235558",
+                        "88870",
+                        "2849980"
+                    ],
+                    "id_librarything": [
+                        "26016",
+                        "7800997"
+                    ],
+                    "ia_loaded_id": [
+                        "washingtondcnove00vida"
+                    ],
+                    "ia_box_id": [
+                        "IA40024316",
+                        "IA119705",
+                        "IA40051901",
+                        "IA1260723",
+                        "IA40051624",
+                        "IA120301",
+                        "IA1161803",
+                        "IA1942324",
+                        "IA111315"
+                    ],
+                    "publisher_facet": [
+                        "Abacus",
+                        "Ballantine Books",
+                        "Books On Tape",
+                        "Edhasa",
+                        "Ediciones B",
+                        "Grafton Books",
+                        "Heinemann",
+                        "Kare",
+                        "Little Brown & Company",
+                        "Little, Brown",
+                        "Little, Brown and Company",
+                        "Modern Library",
+                        "New American Library",
+                        "Panther",
+                        "Publicac \u02b9o es Dom Quixote",
+                        "Random House",
+                        "Signet",
+                        "Vintage International",
+                        "World Books"
+                    ],
+                    "place_key": [
+                        "united_states",
+                        "washington_(d.c.)"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "American fiction (fictional works by one author)",
+                        "City and town life",
+                        "Fiction",
+                        "Fiction in English",
+                        "Legislators",
+                        "McCarthyism",
+                        "Politicians",
+                        "Politics and government",
+                        "Protected DAISY",
+                        "Sexual behavior",
+                        "Washington (d.c.), fiction"
+                    ],
+                    "_version_": 1715098270155407369,
+                    "place_facet": [
+                        "United States",
+                        "Washington (D.C.)"
+                    ],
+                    "lcc_sort": "PS-3543.00000000.I26 Was4 W37 1968",
+                    "author_facet": [
+                        "OL2657944A Gore Vidal"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "american_fiction_(fictional_works_by_one_author)",
+                        "city_and_town_life",
+                        "fiction",
+                        "fiction_in_english",
+                        "legislators",
+                        "mccarthyism",
+                        "politicians",
+                        "politics_and_government",
+                        "protected_daisy",
+                        "sexual_behavior",
+                        "washington_(d.c.)_fiction"
+                    ],
+                    "ddc_sort": "823.91"
+                },
+                {
+                    "key": "/works/OL8287031W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7686652M",
+                        "/books/OL7687558M",
+                        "/books/OL7687320M",
+                        "/books/OL7688096M",
+                        "/works/OL8287031W",
+                        "/authors/OL2754228A"
+                    ],
+                    "title": "Washington DC",
+                    "title_suggest": "Washington DC",
+                    "has_fulltext": true,
+                    "edition_count": 4,
+                    "edition_key": [
+                        "OL7686652M",
+                        "OL7687558M",
+                        "OL7687320M",
+                        "OL7688096M"
+                    ],
+                    "publish_date": [
+                        "August 1, 1984",
+                        "November 21, 1989",
+                        "December 17, 1983",
+                        "July 12, 1985"
+                    ],
+                    "publish_year": [
+                        1984,
+                        1985,
+                        1989,
+                        1983
+                    ],
+                    "first_publish_year": 1983,
+                    "isbn": [
+                        "9780517456668",
+                        "0517472732",
+                        "0517451522",
+                        "9780517472736",
+                        "9780517451526",
+                        "0517456664",
+                        "9780517431795",
+                        "0517431793"
+                    ],
+                    "last_modified_i": 1589702092,
+                    "ebook_count_i": 1,
+                    "ia": [
+                        "washingtondc00rhva"
+                    ],
+                    "public_scan_b": false,
+                    "ia_collection_s": "printdisabled;inlibrary;china;americana;library_of_atlantis;delawarecountydistrictlibrary;smithsonianlibraries;gwulibraries-ol;internetarchivebooks",
+                    "lending_edition_s": "OL7688096M",
+                    "lending_identifier_s": "washingtondc00rhva",
+                    "printdisabled_s": "OL7688096M",
+                    "cover_edition_key": "OL7688096M",
+                    "cover_i": 9616578,
+                    "publisher": [
+                        "Random House Value Publishing",
+                        "Crescent"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2754228A"
+                    ],
+                    "author_name": [
+                        "RH Value Publishing"
+                    ],
+                    "author_alternative_name": [
+                        "Rh Value Publishing",
+                        "Random House Value Publishing",
+                        "Value Publishing Rh",
+                        "Value Publ Rh"
+                    ],
+                    "subject": [
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "id_librarything": [
+                        "5329502"
+                    ],
+                    "ia_box_id": [
+                        "IA106805"
+                    ],
+                    "publisher_facet": [
+                        "Crescent",
+                        "Random House Value Publishing"
+                    ],
+                    "subject_facet": [
+                        "Accessible book",
+                        "Protected DAISY"
+                    ],
+                    "_version_": 1715096654406746113,
+                    "author_facet": [
+                        "OL2754228A RH Value Publishing"
+                    ],
+                    "subject_key": [
+                        "accessible_book",
+                        "protected_daisy"
+                    ]
+                },
+                {
+                    "key": "/works/OL2248342W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL20248143M",
+                        "/books/OL20248020M",
+                        "/books/OL1746494M",
+                        "/works/OL2248342W",
+                        "/subjects/description",
+                        "/subjects/guide-books",
+                        "/subjects/guidebooks",
+                        "/subjects/place:washington_(d.c.)",
+                        "/subjects/time:1981-",
+                        "/authors/OL291609A"
+                    ],
+                    "title": "Washington DC",
+                    "title_suggest": "Washington DC",
+                    "has_fulltext": false,
+                    "edition_count": 3,
+                    "edition_key": [
+                        "OL20248143M",
+                        "OL20248020M",
+                        "OL1746494M"
+                    ],
+                    "publish_date": [
+                        "1992",
+                        "1990"
+                    ],
+                    "publish_year": [
+                        1992,
+                        1990
+                    ],
+                    "first_publish_year": 1990,
+                    "number_of_pages_median": 195,
+                    "lccn": [
+                        "92060352"
+                    ],
+                    "publish_place": [
+                        "London"
+                    ],
+                    "contributor": [
+                        "American Express Company.",
+                        "Ritchie, Elisavietta.",
+                        "McIntosh, Christopher."
+                    ],
+                    "lcc": [
+                        "F--0192.30000000.M36 1992b",
+                        "F--0192.30000000"
+                    ],
+                    "ddc": [
+                        "917.53044"
+                    ],
+                    "isbn": [
+                        "9780855336400",
+                        "9780855337780",
+                        "9781857329247",
+                        "1857329244",
+                        "0855336404",
+                        "0855337788"
+                    ],
+                    "last_modified_i": 1605446171,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "M. Beazley",
+                        "Mitchell Beazley"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL291609A"
+                    ],
+                    "author_name": [
+                        "Christopher McIntosh"
+                    ],
+                    "place": [
+                        "Washington (D.C.)"
+                    ],
+                    "subject": [
+                        "Description",
+                        "Guide-books",
+                        "Guidebooks"
+                    ],
+                    "time": [
+                        "1981-"
+                    ],
+                    "id_goodreads": [
+                        "5505075"
+                    ],
+                    "publisher_facet": [
+                        "M. Beazley",
+                        "Mitchell Beazley"
+                    ],
+                    "place_key": [
+                        "washington_(d.c.)"
+                    ],
+                    "time_facet": [
+                        "1981-"
+                    ],
+                    "subject_facet": [
+                        "Description",
+                        "Guide-books",
+                        "Guidebooks"
+                    ],
+                    "_version_": 1715086101623865345,
+                    "place_facet": [
+                        "Washington (D.C.)"
+                    ],
+                    "lcc_sort": "F--0192.30000000.M36 1992b",
+                    "author_facet": [
+                        "OL291609A Christopher McIntosh"
+                    ],
+                    "subject_key": [
+                        "description",
+                        "guide-books",
+                        "guidebooks"
+                    ],
+                    "ddc_sort": "917.53044",
+                    "time_key": [
+                        "1981-"
+                    ]
+                },
+                {
+                    "key": "/works/OL6443706W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL21487117M",
+                        "/books/OL7704162M",
+                        "/books/OL12566165M",
+                        "/works/OL6443706W",
+                        "/subjects/description_and_travel",
+                        "/subjects/pictorial_works",
+                        "/subjects/washington_(d.c.)",
+                        "/authors/OL1708535A"
+                    ],
+                    "title": "Washington Dc",
+                    "title_suggest": "Washington Dc",
+                    "has_fulltext": false,
+                    "edition_count": 3,
+                    "edition_key": [
+                        "OL21487117M",
+                        "OL7704162M",
+                        "OL12566165M"
+                    ],
+                    "publish_date": [
+                        "March 27, 1996",
+                        "1992",
+                        "March 2000"
+                    ],
+                    "publish_year": [
+                        1996,
+                        1992,
+                        2000
+                    ],
+                    "first_publish_year": 1992,
+                    "number_of_pages_median": 160,
+                    "lccn": [
+                        "2015487917"
+                    ],
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "lcc": [
+                        "F--0195.00000000.H318 1994"
+                    ],
+                    "isbn": [
+                        "0517631148",
+                        "9781841004341",
+                        "9780517631140",
+                        "1841004340"
+                    ],
+                    "last_modified_i": 1604516063,
+                    "ebook_count_i": 0,
+                    "publisher": [
+                        "Clb",
+                        "Gramercy",
+                        "Arch Cape Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1708535A"
+                    ],
+                    "author_name": [
+                        "Bill Harris"
+                    ],
+                    "subject": [
+                        "Description and travel",
+                        "Pictorial works",
+                        "Washington (D.C.)"
+                    ],
+                    "id_librarything": [
+                        "1892418"
+                    ],
+                    "publisher_facet": [
+                        "Arch Cape Press",
+                        "Clb",
+                        "Gramercy"
+                    ],
+                    "subject_facet": [
+                        "Description and travel",
+                        "Pictorial works",
+                        "Washington (D.C.)"
+                    ],
+                    "_version_": 1715094692240031745,
+                    "lcc_sort": "F--0195.00000000.H318 1994",
+                    "author_facet": [
+                        "OL1708535A Bill Harris"
+                    ],
+                    "subject_key": [
+                        "description_and_travel",
+                        "pictorial_works",
+                        "washington_(d.c.)"
+                    ]
+                },
+                {
+                    "key": "/works/OL19593082W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL17215925M",
+                        "/books/OL8906774M",
+                        "/works/OL19593082W",
+                        "/subjects/guidebooks",
+                        "/subjects/travel_&_holiday_guides",
+                        "/subjects/travel",
+                        "/subjects/travel_-_united_states",
+                        "/subjects/district_of_columbia_(washington_dc)",
+                        "/subjects/united_states_-_south_atlantic_-_d.c.",
+                        "/subjects/united_states_-_south_-_south_atlantic_(general)",
+                        "/subjects/place:washington_(d.c.)",
+                        "/authors/OL3134415A",
+                        "/authors/OL3134366A"
+                    ],
+                    "title": "Washington, DC",
+                    "title_suggest": "Washington, DC",
+                    "has_fulltext": false,
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL17215925M",
+                        "OL8906774M"
+                    ],
+                    "publish_date": [
+                        "April 2007",
+                        "2007"
+                    ],
+                    "publish_year": [
+                        2007
+                    ],
+                    "first_publish_year": 2007,
+                    "number_of_pages_median": 312,
+                    "publish_place": [
+                        "Footscray, Vic",
+                        "Oakland, CA"
+                    ],
+                    "contributor": [
+                        "Anderson, Aaron",
+                        "Blond, Becca",
+                        "Vorhees, Mara"
+                    ],
+                    "isbn": [
+                        "9781740597999",
+                        "1740597990"
+                    ],
+                    "last_modified_i": 1564564183,
+                    "ebook_count_i": 0,
+                    "cover_edition_key": "OL8906774M",
+                    "cover_i": 2011611,
+                    "publisher": [
+                        "Lonely Planet",
+                        "Lonely Planet Publications"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3134415A",
+                        "OL3134366A"
+                    ],
+                    "author_name": [
+                        "Aaron Anderson",
+                        "Becca Blond"
+                    ],
+                    "place": [
+                        "Washington (D.C.)"
+                    ],
+                    "subject": [
+                        "Guidebooks",
+                        "Travel & holiday guides",
+                        "Travel",
+                        "Travel - United States",
+                        "District of Columbia (Washington, DC)",
+                        "United States - South Atlantic - D.C.",
+                        "United States - South - South Atlantic (General)"
+                    ],
+                    "id_goodreads": [
+                        "315922"
+                    ],
+                    "id_librarything": [
+                        "3368780"
+                    ],
+                    "publisher_facet": [
+                        "Lonely Planet",
+                        "Lonely Planet Publications"
+                    ],
+                    "place_key": [
+                        "washington_(d.c.)"
+                    ],
+                    "subject_facet": [
+                        "District of Columbia (Washington, DC)",
+                        "Guidebooks",
+                        "Travel",
+                        "Travel & holiday guides",
+                        "Travel - United States",
+                        "United States - South - South Atlantic (General)",
+                        "United States - South Atlantic - D.C."
+                    ],
+                    "_version_": 1715083016643018753,
+                    "place_facet": [
+                        "Washington (D.C.)"
+                    ],
+                    "author_facet": [
+                        "OL3134366A Becca Blond",
+                        "OL3134415A Aaron Anderson"
+                    ],
+                    "subject_key": [
+                        "district_of_columbia_(washington_dc)",
+                        "guidebooks",
+                        "travel",
+                        "travel_-_united_states",
+                        "travel__holiday_guides",
+                        "united_states_-_south_-_south_atlantic_(general)",
+                        "united_states_-_south_atlantic_-_d.c."
+                    ]
+                }
+            ],
+            "num_found": 61764,
+            "q": "Washington,DC",
+            "offset": null
+        }
+  recorded_at: Tue, 18 Jan 2022 17:07:35 GMT
+recorded_with: VCR 6.0.0
