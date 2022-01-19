@@ -108,9 +108,9 @@ describe 'forcast requests', :vcr do
 
       metric_info = JSON.parse(response.body, symbolize_names: true)
       metric_temp = metric_info[:data][:attributes][:current_weather][:temperature]
-      comp_temp = (metric_temp * 1.8 + 32.0)
+      comp_temp = (metric_temp * 1.8 + 32.0).round
 
-      expect(imperial_temp).to eq comp_temp
+      expect(imperial_temp.round).to eq comp_temp
     end
   end
 end

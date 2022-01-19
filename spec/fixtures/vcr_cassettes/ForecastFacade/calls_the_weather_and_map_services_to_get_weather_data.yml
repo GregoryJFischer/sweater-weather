@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 19 Jan 2022 00:51:00 GMT
+      - Wed, 19 Jan 2022 00:50:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -93,5 +93,5 @@ http_interactions:
         snow","icon":"13d"}],"clouds":79,"pop":0.36,"snow":0.25,"uvi":2},{"dt":1643043600,"sunrise":1643026828,"sunset":1643062776,"moonrise":0,"moonset":1643040120,"moon_phase":0.72,"temp":{"day":30.83,"min":25.38,"max":31.71,"night":28.87,"eve":28.72,"morn":25.38},"feels_like":{"day":22.77,"night":21.54,"eve":23.95,"morn":15.87},"pressure":1017,"humidity":36,"dew_point":6.64,"wind_speed":9.98,"wind_deg":320,"wind_gust":20.96,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"clouds":33,"pop":0,"uvi":2},{"dt":1643130000,"sunrise":1643113188,"sunset":1643149245,"moonrise":1643087940,"moonset":1643128200,"moon_phase":0.75,"temp":{"day":43.77,"min":25.18,"max":43.77,"night":25.18,"eve":32.25,"morn":34.38},"feels_like":{"day":38.34,"night":12.72,"eve":22.86,"morn":26.92},"pressure":1009,"humidity":74,"dew_point":35.56,"wind_speed":15.32,"wind_deg":305,"wind_gust":31.81,"weather":[{"id":600,"main":"Snow","description":"light
         snow","icon":"13d"}],"clouds":89,"pop":0.7,"snow":1.22,"uvi":2}]}'
-  recorded_at: Wed, 19 Jan 2022 00:51:00 GMT
+  recorded_at: Wed, 19 Jan 2022 00:50:52 GMT
 recorded_with: VCR 6.0.0
