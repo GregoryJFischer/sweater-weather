@@ -158,7 +158,7 @@ GET `/api/v1/forecast?location=denver,co`
 }
 ```
 
-### GET `/api/v1/bacgrounds`
+### GET `/api/v1/backgrounds`
 Queries UnSplashed for a relevent photo for a given location.
 
 #### Parameters
@@ -167,7 +167,7 @@ All parameters for this request should be passed as querry parameters
 
 #### Example Response
 
-GET `/api/v1/backgrounds?location=New York,NY`
+GET `/api/v1/backgrounds?location=New York, NY`
 ```
 {
     "data": {
@@ -175,7 +175,7 @@ GET `/api/v1/backgrounds?location=New York,NY`
         "id": null,
         "attributes": {
             "image": {
-                "location": "New York,NY",
+                "location": "New York, NY",
                 "image_url": "https://images.unsplash.com/photo-1596491690105-2916ddc03050?ixid=MnwyOTExNzZ8MHwxfHNlYXJjaHwxfHxOZXclMjBZb3JrJTJDTll8ZW58MHx8fHwxNjQyNTM3ODM4&ixlib=rb-1.2.1&utm_source=sweater-weather-api&utm_medium=referral&utm_campaign=api-credit",
                 "credit": {
                     "source": "Unsplash",
@@ -243,7 +243,7 @@ Endpoint for logging in a user. This endpoint requires that information in the r
 }
 ```
 
-### GET `/api/v1/road_trip`
+### POST `/api/v1/road_trip`
 Used for getting information about a road trip. Weather information if for the destination city at the time of arrival. This endpoint requires that information in the request be sent as a JSON payload in the body of the request and requires authentication via api key, which can be obtained from either creating a user or loggin a user in.
 
 #### Example Request Body

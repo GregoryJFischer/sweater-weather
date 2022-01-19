@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Tue, 18 Jan 2022 17:07:35 GMT
+      - Wed, 19 Jan 2022 00:51:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.602 TT 0 0.604"'
+      - '"SR 1 0.367 TT 0 0.371"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 61764,
+            "numFound": 61763,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -885,9 +885,9 @@ http_interactions:
                     ]
                 }
             ],
-            "num_found": 61764,
+            "num_found": 61763,
             "q": "Washington,DC",
             "offset": null
         }
-  recorded_at: Tue, 18 Jan 2022 17:07:35 GMT
+  recorded_at: Wed, 19 Jan 2022 00:51:00 GMT
 recorded_with: VCR 6.0.0

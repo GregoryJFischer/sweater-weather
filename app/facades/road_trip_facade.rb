@@ -13,7 +13,7 @@ class RoadTripFacade
     if days_from_now >= 1
       {
         temperature: full_weather[:daily][days_from_now][:temp][:day],
-        conditions: full_weather[:daily][days_from_now][:weather][:description]
+        conditions: full_weather[:daily][days_from_now][:weather][0][:description]
       }
     elsif hours_from_now < 1
       {
